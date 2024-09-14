@@ -6,7 +6,7 @@ import ProductCard from '../components/card/ProductCard';
 const AllProducts = () => {
   const [sidebarData, setSidebarData] = useState({
     searchTerm: '',
-    sort: 'descab',
+    sort: 'desc',
     category: 'uncategorized',
   });
 
