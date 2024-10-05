@@ -77,4 +77,4 @@ export const {
     deleteUserFailure
   } = userSlice.actions;
   
-  export default userSlice.reduce;
+  export default userSlice.reducer;
